@@ -1,7 +1,5 @@
 {
-    "extends": [
-        "@salesforce/eslint-config-lwc/recommended"
-    ],
+    "extends": ["@salesforce/eslint-config-lwc/recommended"],
     "rules": {
         "@lwc/lwc/no-async-operation": "warn",
         "@lwc/lwc/no-inner-html": "warn",
@@ -9,9 +7,7 @@
     },
     "overrides": [
         {
-            "files": [
-                "src/server/**"
-            ],
+            "files": ["src/server/**"],
             "env": {
                 "node": true
             }
