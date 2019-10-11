@@ -1,7 +1,6 @@
 import { LightningElement, api, track } from 'lwc';
 import { getSession } from 'data/sessionService';
 export default class sessionDetails extends LightningElement {
-
     @track session;
 
     @api
