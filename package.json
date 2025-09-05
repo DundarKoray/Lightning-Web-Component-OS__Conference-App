@@ -4,7 +4,7 @@
     "author": "Koray Dundar",
     "bugs": "https://github.com/Koray Dundar/conference-app/issues",
     "dependencies": {
-        "lwc-services": "^1.3.4"
+        "lwc-services": "^3.2.2"
     },
     "devDependencies": {
         "husky": "^3.0.8",
